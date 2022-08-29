@@ -1,0 +1,17 @@
+CRITICAL - 2022-08-29 05:35:33 --> CodeIgniter\Router\RouteCollection::resource(): Argument #2 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\app\Config\Routes.php on line 35
+#0 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->resource('/task/create', 'Tasks::create')
+#1 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-29 05:50:04 --> Cannot use CodeIgniter\RESTful\ResourceController as ResourceController because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-29 05:58:35 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\app\Controllers\Tasks.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(832): App\Controllers\Tasks->index()
+#2 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tasks))
+#3 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter\CI4\task-manager-api-ci4\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
